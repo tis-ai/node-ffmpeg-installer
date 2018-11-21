@@ -14,11 +14,11 @@
   "license": "LGPL-2.1",
   "description": "Platform independent binary installer of FFmpeg for node projects",
   "optionalDependencies": {
-    "@ffmpeg-installer/darwin-x64": "github:tis-ai/node-ffmpeg-installer",
-    "@ffmpeg-installer/linux-ia32": "github:tis-ai/node-ffmpeg-installer",
-    "@ffmpeg-installer/linux-x64": "github:tis-ai/node-ffmpeg-installer",
-    "@ffmpeg-installer/win32-ia32": "github:tis-ai/node-ffmpeg-installer",
-    "@ffmpeg-installer/win32-x64": "github:tis-ai/node-ffmpeg-installer"
+    "@ffmpeg-installer/darwin-x64": "git+https://github.com/tis-ai/node-ffmpeg-installer.git",
+    "@ffmpeg-installer/linux-ia32": "git+https://github.com/tis-ai/node-ffmpeg-installer.git",
+    "@ffmpeg-installer/linux-x64": "git+https://github.com/tis-ai/node-ffmpeg-installer.git",
+    "@ffmpeg-installer/win32-ia32": "git+https://github.com/tis-ai/node-ffmpeg-installer.git",
+    "@ffmpeg-installer/win32-x64": "git+https://github.com/tis-ai/node-ffmpeg-installer.git"
   },
   "devDependencies": {
     "jshint": "^2.9.3"
